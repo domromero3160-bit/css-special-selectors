@@ -11,5 +11,32 @@
     font-size: 80px;
 }
 
+.card a:hover {
+    background-color:pink;
+}
+
+.card a{
+    background-color: red;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.card p::after{
+    content: "now $29";
+    color: red;
+    margin-left: 5px;
+}
+
+.card::before {
+    content: "SALE";
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 100px;
+}
+
+
 /* Add your CSS styles below this line */
 
